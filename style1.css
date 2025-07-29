@@ -1,0 +1,54 @@
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .left-panel {
+      background-color: rgb(0, 123, 255);
+      color: white;
+      padding: 4rem;
+    }
+
+    .btn-outline-light:hover {
+      background-color: white;
+      color: rgb(0, 123, 255);
+      border-color: white;
+    }
+    header {
+      position: absolute;
+      top: 20px;
+      right: 40px;
+      z-index: 10;
+    }
+
+    header a {
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+      color: rgb(0, 123, 255);
+    }
+    img{
+        width: 480px;
+    }
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+      }
+
+      .left-panel {
+        padding: 2rem;
+        text-align: center;
+        align-items: center;
+      }
+
+      .right-panel img {
+        /* width: 600px; */
+        /* max-width: 80%; */
+        margin-top: 2rem;
+      }
+    }
